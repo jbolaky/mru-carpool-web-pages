@@ -26,13 +26,13 @@ body {
 	z-index:1;
 	background-image: url(../images/header_background.gif);
 	background-repeat: no-repeat;
-	background-position: 14px;
+	background-position: 14px 14px;
 }
 
 #page {
 	position:absolute;
 	left:0px;
-	top:207px;
+	top:200px;
 	width:772px;
 	height:649px;
 	z-index:2;
