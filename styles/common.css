@@ -15,7 +15,19 @@ label {
 	font-size: x-small;
 	font-weight: bold;
 }
-a {
+.common_link_style {
 	color: #80A981;
 	font-size: 90%;
+}
+
+.item {
+	color: #FEA82F;
+	font-size: small;
+}
+
+/* to be used in content section */
+/* can be used inside and outside forms */
+.paragraph_style_1{
+	font-size:85%;
+	font-weight:bold;
 }

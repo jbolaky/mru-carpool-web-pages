@@ -7,12 +7,12 @@
 	width:168px;
 	height:629px;
 	z-index:1;
-	margin-top: 10px;
+	margin-top: 8px;
 	margin-left: 14px;
 }
 div#sidepanel h3 {
 	background-image: url(../images/sidepane.jpg);
-	font-size: 100%;
+	font-size: 110%;
 	background-repeat: no-repeat;
 	font-family: "Franklin Gothic Medium Cond", Arial, sans-serif;
 	padding-top: 7px;
