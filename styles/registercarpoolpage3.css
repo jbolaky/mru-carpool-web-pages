@@ -4,6 +4,14 @@ div#content {
 	height:300px;
 }
 
+div#content p {
+	font-size: 75%;
+}
+
+.seatsAvailable {
+	width:20%;
+}
+
 .buttons {
 	width: 90%;
 	text-align: center;
@@ -32,6 +40,7 @@ fieldset {
 	border-left-style: none;
 	padding-left: 5%;
 	padding-top: 2%;
+	font-size:x-small;
 }
 fieldset div {
 	clear: none;
@@ -51,10 +60,11 @@ fieldset input.button {
 	font-family: Arial, Helvetica, sans-serif;
 	float:none;
 	text-align:center;
+	font-size:x-small;
 }
+
 table tr td  {
 	text-align:left;
-	padding-top:10px;
 }
 table tr td select  {
 	width:80%;

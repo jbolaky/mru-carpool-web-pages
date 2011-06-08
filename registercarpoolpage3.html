@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The Free Car Pool</title>
+<link href="styles/footer.css" rel="stylesheet" type="text/css" />
+<link href="styles/common.css" rel="stylesheet" type="text/css" />
+<link href="styles/menu.css" rel="stylesheet" type="text/css" />
+<link href="styles/header.css" rel="stylesheet" type="text/css" />
+<link href="styles/layout.css" rel="stylesheet" type="text/css" />
+<link href="styles/content-common.css" rel="stylesheet" type="text/css" />
+<link href="styles/registercarpoolpage3.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script src="../SpryAssets/SpryValidationRadio.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<link href="../SpryAssets/SpryValidationRadio.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="carpool_frame">
+  <div id="header"><a class="carpool_pic" href="#"></a></div>
+  <div id="page">
+   <div id="content">
+	  	<h1 class="notopmargin">Car Pool Details</h1>
+        <form action="registercarpoolpage3.html" method="post" class="contentmargin">
+        	<fieldset>
+            	<label>Select the travel Days and the amount of seats available for that day</label>
+            	<table width="36%">
+                  <tr>
+                    <td width="65%"><input name="monday" type="checkbox" value="" />Monday</td>
+                    <td width="15%"><input name="numOfSeatsAvailableMonday" type="text" value="0" class="seatsAvailable"/></td>
+                    <td ><input name="tuesday" type="checkbox" value="" />Tuesday</td>
+                    <td ><input name="numOfSeatsAvailableTuesday" type="text" value="0" class="seatsAvailable"/></td>
+                    <td ><input name="wednesday" type="checkbox" value="" />Wednesday</td>
+                    <td ><input name="numOfSeatsAvailableWednesday" type="text" value="0" class="seatsAvailable"/></td>
+                  </tr>
+                  <tr>
+                    <td><input name="thursday" type="checkbox" value="" />Thursday</td>
+                    <td><input name="numOfSeatsAvailableThursday" type="text" value="0" class="seatsAvailable"/></td>
+                    <td><input name="friday" type="checkbox" value="" />Friday</td>
+                    <td><input name="numOfSeatsAvailableFriday" type="text" value="0" class="seatsAvailable"/></td>
+                  </tr>
+                  <tr>
+                  	<td><input name="saturday" type="checkbox" value="" />Saturday</td>
+                    <td><input name="numOfSeatsAvailableSaturday" type="text" value="0" class="seatsAvailable"/></td>
+                    <td><input name="sunday" type="checkbox" value="" />Sunday</td>
+                    <td><input name="numOfSeatsAvailableSunday" type="text" value="0" class="seatsAvailable"/></td>
+                  </tr>
+                </table>
+
+                
+                
+                
+                
+                <table width="95%">
+                  <tr>
+                    <td><label>CarPool Name:</label></td>
+                    <td><label>CarPool Date:</label></td>
+                    <td><label>No. Current Passengers:</label></td>
+                  </tr>
+                  <tr>
+                    <td>
+                    	<input name="carPoolName" type="text" />
+                    </td>
+                    <td>
+                    	<input name="carPoolDate" type="text" />
+                    </td>
+                    <td>
+                    	<input name="numberPassengers" type="text" />
+                    </td>
+                  </tr>
+                </table>
+				
+                <h2 class="item">From</h2>
+              <p>To list all suburbs in your State, select State, change Region to Search All and then select the Suburb. </p>
+            	<table width="95%">
+  					<tr>
+                    	<td width="25%"><label>District:</label></td>
+    					<td width="25%"><label>Region:</label></td>
+  					</tr>
+  					<tr>
+                    	<td>
+                        	<select name="fromDistrict">
+                            	<option>Mauritius</option>
+                            </select>
+                        </td>
+    					<td>
+                        	<select name="fromRegion">
+                            	<option>Mauritius</option>
+                            </select>
+                        </td>
+  					</tr>
+				</table>
+                
+                <table width="95%" class="topspace">
+                  <tr>
+                    <td><label>One Way or Return?</label></td>
+                    <span id="spryradio1">
+                    	<td>
+                        	<input type="radio" name="journey" value="radio" id="journey_0" />
+                        	<label>Yes</label>
+                  		</td>
+                        <td>
+                        	<input type="radio" name="journey" value="radio" id="journey_1" />
+                        	<label>No</label>
+             			</td>
+                    </span>
+                  </tr>
+                  <tr>
+                    <td><label>Preferred Gender To Travel With:</label></td>
+                    <span id="spryradio2">
+                    	<td>
+                        	<input type="radio" name="genderToTravelWith" value="radio" id="genderToTravelWith_0" />
+                        	<label>Male Only</label>
+                  		</td>
+                        <td>
+                        	<input type="radio" name="genderToTravelWith" value="radio" id="genderToTravelWith_1" />
+                        	<label>Female Only</label>
+             			</td>
+                        <td>
+                        	<input type="radio" name="genderToTravelWith" value="radio" id="genderToTravelWith_2" />
+                        	<label>Both</label>
+             			</td>
+                    </span>
+                  </tr>
+                  <tr>
+                    <td><label>Share Costs:</label></td>
+                    <span id="spryradio3">
+                    	<td>
+                        	<input type="radio" name="shareCost" value="radio" id="shareCost_0" />
+                        	<label>Yes</label>
+                  		</td>
+                        <td>
+                        	<input type="radio" name="shareCost" value="radio" id="shareCost_1" />
+                        	<label>No</label>
+             			</td>
+                    </span>
+                  </tr>
+                </table>
+                <div class="topspace buttons">
+                	<input class="button" name="goBack" type="submit" value="Previous Step - Personal Details" />
+                    <input class="button" name="nextStep" type="submit" value="Next Step - Travel Details" />
+                </div>
+          </fieldset>
+        </form>	
+    </div>
+	<div id="sidepanel">
+    	<div id="group">
+      		<h3 align="center" class="notopmargin">REGISTER | SEARCH</h3>
+       		<div class="menu">
+   			  <ul id="MenuBar1" class="MenuBarVertical">
+       	    		<li><a href="homepage.html">Home</a></li>
+       	    		<li><a href="#" class="MenuBarItemSubmenu">Car Pool</a>
+       	      			<ul>
+                			<li><a href="carpoolsimplesearch.html">Search Car Pool</a></li>
+                			<li><a href="#">Register Car Pool</a></li>
+       	      			</ul>
+       	    		</li>
+       	    		<li><a href="register.html">Register Free</a></li>
+                    <li><a href="login.html">Login</a></li>
+</ul>
+   		  </div>
+        	<div class="clear"></div>
+      		<a href="#" class="button_corpbutton"></a>
+        	<div class="topspace greenbox"><img src="images/Publicat.jpg" width="125" height="176" /></div>
+    		<h3 align="center" class="topspace">INFORMATION</h3>
+    		<div class="menu">
+   			  <ul id="MenuBar2" class="MenuBarVertical">
+            		<li><a href="#">Savings Calculator</a></li>
+					<li><a href="#">Benefits</a></li>
+					<li><a href="#">Etiquette</a></li>
+				<li><a href="#">About Us/Contact Us</a></li>
+                <li><a href="#">FAQ's</a></li>
+</ul>
+   		  </div>
+        	<div class="clear"></div>
+      		<a href="#" class="button_emailbutton"></a>
+    	</div>
+  </div>   
+  </div>
+  <div id="footer">
+    <p>&copy; Copyright 2011 Mauritian Car Pool | Contact Us</p>
+  </div>
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar2 = new Spry.Widget.MenuBar("MenuBar2", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+<script src="js/pageheight.js" type="text/javascript"></script>
+<script type="text/javascript">
+var spryradio1 = new Spry.Widget.ValidationRadio("spryradio1");
+var spryradio1 = new Spry.Widget.ValidationRadio("spryradio2");
+var spryradio1 = new Spry.Widget.ValidationRadio("spryradio3");
+</script>
+</body>
+</html>
