@@ -14,7 +14,7 @@
 }
 
 div#content {
-	height:720px;
+	height:820px;
 }
 
 div#content h1 {
@@ -30,6 +30,17 @@ div#content h1 {
 div#content p {
 	font-size: 75%;
 }
+div#errormessage {
+	background-color: #F9F7F4;
+	border: 1px solid #A5ACB2;
+	padding-left: 13%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: small;
+}
+div.error_icon {
+	background-image: url(../images/error_icon.png);	
+}
 label {
 	font-size: x-small;
 	font-weight: bold;
@@ -40,11 +51,9 @@ form {
 	border: 1px solid #A5ACB2;
 	margin-top: 8px;
 	margin-bottom: 0px;
-	margin-left: 2px;
 	padding-top: 5px;
 	padding-right: 5px;
 	padding-bottom: 10px;
-	margin-right: 1px;
 }
 fieldset {
 	border-top-style: none;
@@ -73,7 +82,7 @@ fieldset input.button {
 	padding: 1px 2px;
 	font-family: Arial, Helvetica, sans-serif;
 }
-table tr td  {
+table#account_details tr td  {
 	text-align:right;
 }
 table.ur_contact_details tr td  {

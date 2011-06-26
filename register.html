@@ -21,7 +21,29 @@
 	<link href="SpryAssets/SpryValidationRadio.css" rel="stylesheet" type="text/css" />
 	<div id="content">
 	  <h1 class="contentmargin notopmargin"> Your Information </h1>
-     	<form action="homepage.html" method="post" class="contentmargin">
+     	
+        <div id="errormessage">
+        	<table width="95%">
+              <tr>
+                <td><img src="images/error_icon.png" width="15" height="15" /></td>
+                <td>Please enter username</td>
+              </tr>
+              <tr>
+                <td><img src="images/error_icon.png" width="15" height="15" /></td>
+                <td>Password and confirm password does not match</td>
+              </tr>
+              <tr>
+                <td><img src="images/error_icon.png" width="15" height="15" /></td>
+                <td>Email address and confirm email address does not match</td>
+              </tr>
+              <tr>
+                <td><img src="images/error_icon.png" width="15" height="15" /></td>
+                <td>Please enter username</td>
+              </tr>
+            </table>
+        </div>
+        
+        <form action="homepage.html" method="post" class="contentmargin">
         	<fieldset>
             	<h2 class="item" style="margin-top:0%;">Account Details</h2>
                 <table id="account_details" width="100%">
